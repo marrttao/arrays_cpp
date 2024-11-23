@@ -2,9 +2,10 @@
 using namespace std;
 
 int main() {
-	int income[6] {};
+	const int SIZE = 6;
+	int income[SIZE];
 	int result = 0;
-	for (int i = 0; i <= 5; i++) {
+	for (int i = 0; i <= SIZE-1; i++) {
 		cout << "Enter income for month " << i + 1 << ": ";
 		cin >> income[i];
 		result += income[i];
