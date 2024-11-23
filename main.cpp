@@ -7,11 +7,8 @@ int main() {
 	for (int i = 0; i <= 5; i++) {
 		cout << "Enter income for month " << i + 1 << ": ";
 		cin >> income[i];
-	}
-	for (int i = 0; i <= 5; i++) {
 		result += income[i];
 	}
-	cout << "Total income for the year is: " << result << endl;
-
+	cout << "Total income for the half of year is: " << result << endl;
 	return 0;
 }
